@@ -39,7 +39,8 @@ npm start
 yarn start
 ```
 
-The application will be accessible at `http://localhost:3000`.
+**Testing Note:**
+To test the application, you can view and modify the `AppData` key in your browser's local storage. Additionally, you can refer to the `MockData.json` file in the `src` directory to get initial user credentials for login.
 
 ---
 
