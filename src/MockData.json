@@ -1,0 +1,609 @@
+{
+  "users": [
+    { "id": "1", "role": "Admin", "email": "admin@entnt.in", "password": "admin123" },
+    { "id": "2", "role": "Patient", "email": "john@entnt.in", "password": "patient123", "patientId": "p1" },
+    { "id": "3", "role": "Patient", "email": "emma@entnt.in", "password": "patient456", "patientId": "p2" },
+    { "id": "4", "role": "Patient", "email": "mike@entnt.in", "password": "patient789", "patientId": "p3" },
+    { "id": "5", "role": "Patient", "email": "sara@entnt.in", "password": "patient101", "patientId": "p4" },
+    { "id": "6", "role": "Patient", "email": "david@entnt.in", "password": "patient112", "patientId": "p5" },
+    { "id": "7", "role": "Patient", "email": "lisa@entnt.in", "password": "patient131", "patientId": "p6" },
+    { "id": "8", "role": "Patient", "email": "robert@entnt.in", "password": "patient415", "patientId": "p7" },
+    { "id": "9", "role": "Patient", "email": "amy@entnt.in", "password": "patient161", "patientId": "p8" },
+    { "id": "10", "role": "Patient", "email": "james@entnt.in", "password": "patient718", "patientId": "p9" },
+    { "id": "11", "role": "Patient", "email": "olivia@entnt.in", "password": "patient192", "patientId": "p10" },
+    { "id": "12", "role": "Patient", "email": "william@entnt.in", "password": "patient021", "patientId": "p11" },
+    { "id": "13", "role": "Patient", "email": "sophia@entnt.in", "password": "patient224", "patientId": "p12" },
+    { "id": "14", "role": "Patient", "email": "benjamin@entnt.in", "password": "patient253", "patientId": "p13" },
+    { "id": "15", "role": "Patient", "email": "charlotte@entnt.in", "password": "patient263", "patientId": "p14" },
+    { "id": "16", "role": "Patient", "email": "daniel@entnt.in", "password": "patient274", "patientId": "p15" },
+    { "id": "17", "role": "Patient", "email": "mia@entnt.in", "password": "patient285", "patientId": "p16" },
+    { "id": "18", "role": "Patient", "email": "henry@entnt.in", "password": "patient296", "patientId": "p17" },
+    { "id": "19", "role": "Patient", "email": "amelia@entnt.in", "password": "patient307", "patientId": "p18" },
+    { "id": "20", "role": "Patient", "email": "jackson@entnt.in", "password": "patient318", "patientId": "p19" },
+    { "id": "21", "role": "Patient", "email": "harper@entnt.in", "password": "patient329", "patientId": "p20" },
+    { "id": "22", "role": "Patient", "email": "aiden@entnt.in", "password": "patient330", "patientId": "p21" },
+    { "id": "23", "role": "Patient", "email": "ella@entnt.in", "password": "patient341", "patientId": "p22" },
+    { "id": "24", "role": "Patient", "email": "lucas@entnt.in", "password": "patient352", "patientId": "p23" },
+    { "id": "25", "role": "Patient", "email": "scarlett@entnt.in", "password": "patient363", "patientId": "p24" },
+    { "id": "26", "role": "Patient", "email": "liam@entnt.in", "password": "patient374", "patientId": "p25" }
+  ],
+  "patients": [
+    {
+      "id": "p1", "name": "John Doe", "dob": "1990-05-10", "contact": "1234567890", "healthInfo": "No allergies"
+    },
+    {
+      "id": "p2", "name": "Emma Wilson", "dob": "1985-11-22", "contact": "2345678901", "healthInfo": "Penicillin allergy"
+    },
+    {
+      "id": "p3", "name": "Mike Johnson", "dob": "1978-03-15", "contact": "3456789012", "healthInfo": "Diabetic"
+    },
+    {
+      "id": "p4", "name": "Sara Williams", "dob": "1995-08-30", "contact": "4567890123", "healthInfo": "Hypertension"
+    },
+    {
+      "id": "p5", "name": "David Brown", "dob": "1982-07-14", "contact": "5678901234", "healthInfo": "Asthma"
+    },
+    {
+      "id": "p6", "name": "Lisa Miller", "dob": "1992-04-18", "contact": "6789012345", "healthInfo": "Pregnancy (2nd trimester)"
+    },
+    {
+      "id": "p7", "name": "Robert Davis", "dob": "1965-09-25", "contact": "7890123456", "healthInfo": "Heart condition"
+    },
+    {
+      "id": "p8", "name": "Amy Garcia", "dob": "1988-12-05", "contact": "8901234567", "healthInfo": "No known conditions"
+    },
+    {
+      "id": "p9", "name": "James Rodriguez", "dob": "1973-01-30", "contact": "9012345678", "healthInfo": "High cholesterol"
+    },
+    {
+      "id": "p10", "name": "Olivia Martinez", "dob": "1998-06-12", "contact": "0123456789", "healthInfo": "Lactose intolerant"
+    },
+    {
+      "id": "p11", "name": "William Anderson", "dob": "1980-02-28", "contact": "1122334455", "healthInfo": "Sleep apnea"
+    },
+    {
+      "id": "p12", "name": "Sophia Thomas", "dob": "1993-10-15", "contact": "2233445566", "healthInfo": "Migraine"
+    },
+    {
+      "id": "p13", "name": "Benjamin Lee", "dob": "1975-07-20", "contact": "3344556677", "healthInfo": "Arthritis"
+    },
+    {
+      "id": "p14", "name": "Charlotte Walker", "dob": "1987-03-08", "contact": "4455667788", "healthInfo": "Anemia"
+    },
+    {
+      "id": "p15", "name": "Daniel Hall", "dob": "1991-11-11", "contact": "5566778899", "healthInfo": "Glaucoma"
+    },
+    {
+      "id": "p16", "name": "Mia Young", "dob": "1984-09-03", "contact": "6677889900", "healthInfo": "Thyroid disorder"
+    },
+    {
+      "id": "p17", "name": "Henry Allen", "dob": "1970-12-24", "contact": "7788990011", "healthInfo": "Prosthetic hip"
+    },
+    {
+      "id": "p18", "name": "Amelia King", "dob": "1996-04-17", "contact": "8899001122", "healthInfo": "Epilepsy"
+    },
+    {
+      "id": "p19", "name": "Jackson Wright", "dob": "1983-08-09", "contact": "9900112233", "healthInfo": "Pacemaker"
+    },
+    {
+      "id": "p20", "name": "Harper Scott", "dob": "1994-05-22", "contact": "0011223344", "healthInfo": "Depression"
+    },
+    {
+      "id": "p21", "name": "Aiden Green", "dob": "1989-01-07", "contact": "1029384756", "healthInfo": "Eczema"
+    },
+    {
+      "id": "p22", "name": "Ella Baker", "dob": "1977-06-19", "contact": "5647382910", "healthInfo": "Osteoporosis"
+    },
+    {
+      "id": "p23", "name": "Lucas Adams", "dob": "1997-02-14", "contact": "9876543210", "healthInfo": "ADHD"
+    },
+    {
+      "id": "p24", "name": "Scarlett Nelson", "dob": "1986-10-31", "contact": "1357924680", "healthInfo": "Psoriasis"
+    },
+    {
+      "id": "p25", "name": "Liam Carter", "dob": "1972-07-26", "contact": "2468013579", "healthInfo": "Hepatitis B"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "i1", "patientId": "p1", "title": "Toothache", "description": "Upper molar pain", "comments": "Sensitive to cold",
+      "appointmentDate": "2025-06-01T09:00:00", "cost": 80, "status": "Completed",
+      "files": [{ "name": "xray.png", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i2", "patientId": "p2", "title": "Root Canal", "description": "Left premolar requires root canal treatment",
+      "comments": "Severe sensitivity to hot beverages", "appointmentDate": "2025-06-01T10:30:00", "cost": 250, "status": "Completed",
+      "files": [{ "name": "scan.pdf", "url": "Base 64/Blob Url" }, { "name": "report.doc", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i3", "patientId": "p3", "title": "Dental Checkup", "description": "Annual routine examination",
+      "comments": "Possible cavity in lower left molar", "appointmentDate": "2025-06-02T11:15:00", "cost": 120, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i4", "patientId": "p4", "title": "Wisdom Tooth", "description": "Impacted wisdom tooth extraction",
+      "comments": "Swelling observed", "appointmentDate": "2025-06-02T14:00:00", "cost": 300, "status": "Completed",
+      "files": [{ "name": "panoramic.jpg", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i5", "patientId": "p5", "title": "Teeth Cleaning", "description": "Professional dental cleaning",
+      "comments": "Mild gingivitis detected", "appointmentDate": "2025-06-03T08:45:00", "cost": 95, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i6", "patientId": "p6", "title": "Crown Placement", "description": "Ceramic crown installation on molar",
+      "comments": "Temporary crown currently in place", "appointmentDate": "2025-06-03T13:30:00", "cost": 420, "status": "Completed",
+      "files": [{ "name": "impression.stl", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i7", "patientId": "p7", "title": "Denture Fitting", "description": "Full upper denture adjustment",
+      "comments": "Patient reports discomfort", "appointmentDate": "2025-06-04T10:00:00", "cost": 180, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i8", "patientId": "p8", "title": "Tooth Extraction", "description": "Broken canine extraction",
+      "comments": "Local anesthesia required", "appointmentDate": "2025-06-04T15:45:00", "cost": 150, "status": "Completed",
+      "files": [{ "name": "preop_xray.png", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i9", "patientId": "p9", "title": "Gum Treatment", "description": "Periodontal scaling and root planing",
+      "comments": "Advanced gingivitis", "appointmentDate": "2025-06-05T09:30:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i10", "patientId": "p10", "title": "Braces Adjustment", "description": "Monthly wire adjustment",
+      "comments": "Patient reports wire poking", "appointmentDate": "2025-06-05T11:15:00", "cost": 75, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i11", "patientId": "p11", "title": "Dental Implant", "description": "Titanium implant placement",
+      "comments": "Bone graft performed", "appointmentDate": "2025-06-06T08:00:00", "cost": 1200, "status": "Completed",
+      "files": [{ "name": "ct_scan.dcm", "url": "Base 64/Blob Url" }, { "name": "surgical_plan.pdf", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i12", "patientId": "p12", "title": "Cavity Filling", "description": "Composite filling on premolar",
+      "comments": "Small cavity detected", "appointmentDate": "2025-06-06T14:30:00", "cost": 110, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i13", "patientId": "p13", "title": "Toothache", "description": "Generalized pain upper jaw",
+      "comments": "Possible sinus infection", "appointmentDate": "2025-06-07T10:45:00", "cost": 80, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i14", "patientId": "p14", "title": "Night Guard", "description": "Custom night guard fitting",
+      "comments": "Severe bruxism", "appointmentDate": "2025-06-07T16:15:00", "cost": 350, "status": "Completed",
+      "files": [{ "name": "impression_scan.stl", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i15", "patientId": "p15", "title": "Emergency Visit", "description": "Broken front tooth",
+      "comments": "Trauma from fall", "appointmentDate": "2025-06-08T09:00:00", "cost": 220, "status": "Completed",
+      "files": [{ "name": "trauma_xray.png", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i16", "patientId": "p16", "title": "Whitening", "description": "In-office teeth whitening",
+      "comments": "Mild sensitivity reported", "appointmentDate": "2025-06-08T13:30:00", "cost": 300, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i17", "patientId": "p17", "title": "Denture Repair", "description": "Relining lower denture",
+      "comments": "Poor fit causing sores", "appointmentDate": "2025-06-09T11:00:00", "cost": 120, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i18", "patientId": "p18", "title": "Ortho Consultation", "description": "Initial braces consultation",
+      "comments": "Moderate crowding", "appointmentDate": "2025-06-09T15:45:00", "cost": 50, "status": "Completed",
+      "files": [{ "name": "panoramic_xray.jpg", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i19", "patientId": "p19", "title": "Toothache", "description": "Pain when chewing",
+      "comments": "Possible cracked tooth", "appointmentDate": "2025-06-10T09:30:00", "cost": 80, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i20", "patientId": "p20", "title": "Fillings Replacement", "description": "Replace old amalgam fillings",
+      "comments": "Two molars", "appointmentDate": "2025-06-10T14:00:00", "cost": 180, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i21", "patientId": "p1", "title": "Follow-up", "description": "Post-extraction check",
+      "comments": "Healing normally", "appointmentDate": "2025-06-11T10:15:00", "cost": 60, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i22", "patientId": "p2", "title": "Root Canal Phase 2", "description": "Final obturation",
+      "comments": "No pain reported", "appointmentDate": "2025-06-11T15:30:00", "cost": 180, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i23", "patientId": "p3", "title": "Crown Prep", "description": "Tooth preparation for crown",
+      "comments": "Temporary crown placed", "appointmentDate": "2025-06-12T08:45:00", "cost": 280, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i24", "patientId": "p4", "title": "Implant Check", "description": "Osseointegration evaluation",
+      "comments": "Healing well", "appointmentDate": "2025-06-12T13:15:00", "cost": 75, "status": "Completed",
+      "files": [{ "name": "xray_check.png", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i25", "patientId": "p5", "title": "Teeth Cleaning", "description": "Regular prophylaxis",
+      "comments": "Moderate tartar", "appointmentDate": "2025-06-13T09:00:00", "cost": 95, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i26", "patientId": "p6", "title": "Emergency", "description": "Lost filling",
+      "comments": "Pain when eating", "appointmentDate": "2025-06-13T16:00:00", "cost": 130, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i27", "patientId": "p7", "title": "Denture Adjustment", "description": "Relief for sore spots",
+      "comments": "Right posterior", "appointmentDate": "2025-06-14T10:30:00", "cost": 60, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i28", "patientId": "p8", "title": "Extraction Follow-up", "description": "Socket evaluation",
+      "comments": "No dry socket", "appointmentDate": "2025-06-14T14:45:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i29", "patientId": "p9", "title": "Gum Treatment", "description": "Second quadrant scaling",
+      "comments": "Improved pocket depth", "appointmentDate": "2025-06-15T11:00:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i30", "patientId": "p10", "title": "Braces Adjustment", "description": "Wire change",
+      "comments": "Good progress", "appointmentDate": "2025-06-15T15:30:00", "cost": 75, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i31", "patientId": "p11", "title": "Implant Uncovery", "description": "Second stage surgery",
+      "comments": "Healing cap placed", "appointmentDate": "2025-06-16T08:00:00", "cost": 350, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i32", "patientId": "p12", "title": "Cavity Filling", "description": "Occlusal filling",
+      "comments": "Small decay", "appointmentDate": "2025-06-16T13:15:00", "cost": 110, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i33", "patientId": "p13", "title": "Sinus Check", "description": "Follow-up on sinus pain",
+      "comments": "Resolved with antibiotics", "appointmentDate": "2025-06-17T09:45:00", "cost": 60, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i34", "patientId": "p14", "title": "Night Guard Adjust", "description": "Pressure point relief",
+      "comments": "Better fit achieved", "appointmentDate": "2025-06-17T16:30:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i35", "patientId": "p15", "title": "Bonding", "description": "Composite repair",
+      "comments": "Chipped incisor", "appointmentDate": "2025-06-18T10:15:00", "cost": 150, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i36", "patientId": "p16", "title": "Whitening Follow-up", "description": "Touch-up treatment",
+      "comments": "Minimal sensitivity", "appointmentDate": "2025-06-18T14:00:00", "cost": 150, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i37", "patientId": "p17", "title": "Denture Reline", "description": "Soft reline material",
+      "comments": "Immediate improvement", "appointmentDate": "2025-06-19T11:30:00", "cost": 180, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i38", "patientId": "p18", "title": "Ortho Records", "description": "Records for braces",
+      "comments": "Impression taken", "appointmentDate": "2025-06-19T15:45:00", "cost": 120, "status": "Completed",
+      "files": [{ "name": "ortho_records.zip", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i39", "patientId": "p19", "title": "Cracked Tooth", "description": "Possible crack diagnosis",
+      "comments": "Needs crown", "appointmentDate": "2025-06-20T09:00:00", "cost": 80, "status": "Completed",
+      "files": [{ "name": "transillumination.jpg", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i40", "patientId": "p20", "title": "Fillings", "description": "Two surface fillings",
+      "comments": "No sensitivity", "appointmentDate": "2025-06-20T14:30:00", "cost": 160, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i41", "patientId": "p1", "title": "Consultation", "description": "Veneer consultation",
+      "comments": "Four front teeth", "appointmentDate": "2025-06-21T10:00:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i42", "patientId": "p2", "title": "Crown Delivery", "description": "Porcelain crown cementation",
+      "comments": "Excellent fit", "appointmentDate": "2025-06-21T15:15:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i43", "patientId": "p3", "title": "Crown Seat", "description": "Permanent crown placement",
+      "comments": "Good occlusion", "appointmentDate": "2025-06-22T08:30:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i44", "patientId": "p4", "title": "Implant Crown", "description": "Abutment impression",
+      "comments": "Final restoration", "appointmentDate": "2025-06-22T13:45:00", "cost": 150, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i45", "patientId": "p5", "title": "Periodontal Eval", "description": "Gum health assessment",
+      "comments": "Stable condition", "appointmentDate": "2025-06-23T09:15:00", "cost": 80, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i46", "patientId": "p6", "title": "Filling Replacement", "description": "Large composite replacement",
+      "comments": "Recurrent decay", "appointmentDate": "2025-06-23T16:00:00", "cost": 190, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i47", "patientId": "p7", "title": "Denture Check", "description": "Stability evaluation",
+      "comments": "No adjustments needed", "appointmentDate": "2025-06-24T10:30:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i48", "patientId": "p8", "title": "Extraction", "description": "Lower molar extraction",
+      "comments": "Severe decay", "appointmentDate": "2025-06-24T14:45:00", "cost": 150, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i49", "patientId": "p9", "title": "Gum Treatment", "description": "Third quadrant",
+      "comments": "Local anesthesia used", "appointmentDate": "2025-06-25T11:00:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i50", "patientId": "p10", "title": "Braces Tighten", "description": "Regular adjustment",
+      "comments": "New power chain", "appointmentDate": "2025-06-25T15:30:00", "cost": 75, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i51", "patientId": "p11", "title": "Implant Crown Prep", "description": "Abutment selection",
+      "comments": "Torqued to spec", "appointmentDate": "2025-06-26T08:00:00", "cost": 180, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i52", "patientId": "p12", "title": "Filling", "description": "Class II restoration",
+      "comments": "Deep cavity", "appointmentDate": "2025-06-26T13:15:00", "cost": 140, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i53", "patientId": "p13", "title": "Oral Surgery Consult", "description": "Wisdom tooth evaluation",
+      "comments": "Impacted", "appointmentDate": "2025-06-27T09:45:00", "cost": 75, "status": "Completed",
+      "files": [{ "name": "panorex.jpg", "url": "Base 64/Blob Url" }]
+    },
+    {
+      "id": "i54", "patientId": "p14", "title": "Night Guard Check", "description": "Wear pattern evaluation",
+      "comments": "Good compliance", "appointmentDate": "2025-06-27T16:30:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i55", "patientId": "p15", "title": "Bonding Polish", "description": "Final polish of restoration",
+      "comments": "Matches well", "appointmentDate": "2025-06-28T10:15:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i56", "patientId": "p16", "title": "Whitening Kit", "description": "Take-home whitening",
+      "comments": "Custom trays", "appointmentDate": "2025-06-28T14:00:00", "cost": 250, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i57", "patientId": "p17", "title": "Denture Repair", "description": "Tooth replacement",
+      "comments": "Front tooth", "appointmentDate": "2025-06-29T11:30:00", "cost": 120, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i58", "patientId": "p18", "title": "Braces On", "description": "Initial placement",
+      "comments": "Metal brackets", "appointmentDate": "2025-06-29T15:45:00", "cost": 500, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i59", "patientId": "p19", "title": "Crown Prep", "description": "For cracked tooth",
+      "comments": "Temp crown placed", "appointmentDate": "2025-06-30T09:00:00", "cost": 280, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i60", "patientId": "p20", "title": "Fillings", "description": "Three small cavities",
+      "comments": "No anesthesia needed", "appointmentDate": "2025-06-30T14:30:00", "cost": 240, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i61", "patientId": "p1", "title": "Veneer Prep", "description": "Four teeth preparation",
+      "comments": "Temps placed", "appointmentDate": "2025-07-01T10:00:00", "cost": 400, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i62", "patientId": "p2", "title": "Check-up", "description": "Post-crown evaluation",
+      "comments": "No issues", "appointmentDate": "2025-07-01T15:15:00", "cost": 60, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i63", "patientId": "p3", "title": "Crown Delivery", "description": "Final cementation",
+      "comments": "Patient satisfied", "appointmentDate": "2025-07-02T08:30:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i64", "patientId": "p4", "title": "Implant Crown Seat", "description": "Final restoration",
+      "comments": "Excellent fit", "appointmentDate": "2025-07-02T13:45:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i65", "patientId": "p5", "title": "Cleaning", "description": "Regular prophylaxis",
+      "comments": "Light staining", "appointmentDate": "2025-07-03T09:15:00", "cost": 95, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i66", "patientId": "p6", "title": "Emergency", "description": "Broken tooth",
+      "comments": "Possible crown needed", "appointmentDate": "2025-07-03T16:00:00", "cost": 90, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i67", "patientId": "p7", "title": "Denture Adjustment", "description": "Relief for sore spot",
+      "comments": "Left posterior", "appointmentDate": "2025-07-04T10:30:00", "cost": 60, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i68", "patientId": "p8", "title": "Extraction Follow-up", "description": "Socket healing check",
+      "comments": "Normal healing", "appointmentDate": "2025-07-04T14:45:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i69", "patientId": "p9", "title": "Gum Treatment", "description": "Final quadrant",
+      "comments": "Complete SRP now", "appointmentDate": "2025-07-05T11:00:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i70", "patientId": "p10", "title": "Braces Adjustment", "description": "Regular visit",
+      "comments": "Good progress", "appointmentDate": "2025-07-05T15:30:00", "cost": 75, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i71", "patientId": "p11", "title": "Implant Crown Delivery", "description": "Final cementation",
+      "comments": "Excellent esthetics", "appointmentDate": "2025-07-06T08:00:00", "cost": 300, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i72", "patientId": "p12", "title": "Filling", "description": "Occlusal composite",
+      "comments": "Early decay", "appointmentDate": "2025-07-06T13:15:00", "cost": 110, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i73", "patientId": "p13", "title": "Wisdom Tooth Removal", "description": "Lower right extraction",
+      "comments": "Surgical", "appointmentDate": "2025-07-07T09:45:00", "cost": 350, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i74", "patientId": "p14", "title": "Night Guard Check", "description": "Wear evaluation",
+      "comments": "Minor adjustment", "appointmentDate": "2025-07-07T16:30:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i75", "patientId": "p15", "title": "Bonding", "description": "Chip repair",
+      "comments": "Front tooth", "appointmentDate": "2025-07-08T10:15:00", "cost": 150, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i76", "patientId": "p16", "title": "Whitening Follow-up", "description": "Progress check",
+      "comments": "Two shades lighter", "appointmentDate": "2025-07-08T14:00:00", "cost": 50, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i77", "patientId": "p17", "title": "Denture Reline", "description": "Hard reline",
+      "comments": "Improved retention", "appointmentDate": "2025-07-09T11:30:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i78", "patientId": "p18", "title": "Braces Adjustment", "description": "First adjustment",
+      "comments": "Some discomfort", "appointmentDate": "2025-07-09T15:45:00", "cost": 75, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i79", "patientId": "p19", "title": "Crown Delivery", "description": "Porcelain fused to metal",
+      "comments": "Good fit", "appointmentDate": "2025-07-10T09:00:00", "cost": 200, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i80", "patientId": "p20", "title": "Fillings", "description": "Two surface restorations",
+      "comments": "No issues", "appointmentDate": "2025-07-10T14:30:00", "cost": 180, "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i81", "patientId": "p1", "title": "Veneer Seat", "description": "Final cementation",
+      "comments": "Excellent esthetics", "appointmentDate": "2025-07-11T10:00:00", "cost": 400, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i82", "patientId": "p2", "title": "Check-up", "description": "Routine examination",
+      "comments": "Annual visit", "appointmentDate": "2025-07-11T15:15:00", "cost": 120, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i83", "patientId": "p3", "title": "Filling", "description": "Replacement filling",
+      "comments": "Recurrent decay", "appointmentDate": "2025-07-12T08:30:00", "cost": 140, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i84", "patientId": "p4", "title": "Implant Check", "description": "Follow-up",
+      "comments": "6 month check", "appointmentDate": "2025-07-12T13:45:00", "cost": 75, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i85", "patientId": "p5", "title": "Cleaning", "description": "Regular prophylaxis",
+      "comments": "Heavy calculus", "appointmentDate": "2025-07-13T09:15:00", "cost": 120, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i86", "patientId": "p6", "title": "Crown Prep", "description": "Broken tooth",
+      "comments": "Possible build-up", "appointmentDate": "2025-07-13T16:00:00", "cost": 280, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i87", "patientId": "p7", "title": "Denture Adjustment", "description": "Sore spot relief",
+      "comments": "Left flange", "appointmentDate": "2025-07-14T10:30:00", "cost": 60, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i88", "patientId": "p8", "title": "Extraction", "description": "Upper premolar",
+      "comments": "Non-restorable", "appointmentDate": "2025-07-14T14:45:00", "cost": 150, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i89", "patientId": "p9", "title": "Perio Maintenance", "description": "3 month recall",
+      "comments": "Stable condition", "appointmentDate": "2025-07-15T11:00:00", "cost": 150, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i90", "patientId": "p10", "title": "Braces Adjustment", "description": "Regular visit",
+      "comments": "New elastics", "appointmentDate": "2025-07-15T15:30:00", "cost": 75, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i91", "patientId": "p11", "title": "Implant Check", "description": "Annual evaluation",
+      "comments": "Radiograph needed", "appointmentDate": "2025-07-16T08:00:00", "cost": 75, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i92", "patientId": "p12", "title": "Filling", "description": "Small occlusal",
+      "comments": "Early detection", "appointmentDate": "2025-07-16T13:15:00", "cost": 110, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i93", "patientId": "p13", "title": "Wisdom Tooth Removal", "description": "Upper left",
+      "comments": "Simple extraction", "appointmentDate": "2025-07-17T09:45:00", "cost": 200, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i94", "patientId": "p14", "title": "Night Guard Replace", "description": "New impression",
+      "comments": "Worn out", "appointmentDate": "2025-07-17T16:30:00", "cost": 350, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i95", "patientId": "p15", "title": "Bonding", "description": "Chip repair",
+      "comments": "Lower incisor", "appointmentDate": "2025-07-18T10:15:00", "cost": 150, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i96", "patientId": "p16", "title": "Whitening Boost", "description": "In-office treatment",
+      "comments": "Maintenance", "appointmentDate": "2025-07-18T14:00:00", "cost": 200, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i97", "patientId": "p17", "title": "Denture Repair", "description": "Tooth replacement",
+      "comments": "Molar tooth", "appointmentDate": "2025-07-19T11:30:00", "cost": 120, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i98", "patientId": "p18", "title": "Braces Adjustment", "description": "Regular visit",
+      "comments": "Progressing well", "appointmentDate": "2025-07-19T15:45:00", "cost": 75, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i99", "patientId": "p19", "title": "Crown Seat", "description": "Final cementation",
+      "comments": "Gold crown", "appointmentDate": "2025-07-20T09:00:00", "cost": 200, "status": "Scheduled",
+      "files": []
+    },
+    {
+      "id": "i100", "patientId": "p20", "title": "Fillings", "description": "Three small restorations",
+      "comments": "Preventive", "appointmentDate": "2025-07-20T14:30:00", "cost": 240, "status": "Scheduled",
+      "files": []
+    }
+  ]
+}
