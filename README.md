@@ -4,6 +4,8 @@
 
 This project is a comprehensive Dental Center Management System designed to streamline patient, appointment, and clinical operations for both administrators and patients. The system features role-based access, a modern responsive UI, and modular architecture for maintainability and scalability.
 
+[Live Demo Link](https://dental-center-management-git-main-sidhant19s-projects.vercel.app)
+
 ---
 
 ## Setup Instructions
